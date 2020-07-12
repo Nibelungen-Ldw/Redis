@@ -1,0 +1,5 @@
+ab -n 10000 -c 500 -p /opt/postfile  -T  "application/x-www-form-urlencoded"  http://192.168.124.12:8080/Seckill/doseckill
+
+
+
+redis-cli --cluster create 192.168.154.128:6379 192.168.154.128:6380 192.168.154.128:6381 192.168.154.128:6389 192.168.154.128:6390 192.168.154.128:6391 --cluster-replicas 1
